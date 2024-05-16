@@ -1,5 +1,5 @@
 # VerifyMeAuthenticator
-Componente de autenticação com ótima funcionalidade.
+Componente de autenticação de ótima funcionalidade.
 # Funcionalidades do projeto
 
 - `Registro de Usuários`:  Os usuários podem se registrar fornecendo um nome de usuário único e uma senha. As credenciais são armazenadas em memória.
