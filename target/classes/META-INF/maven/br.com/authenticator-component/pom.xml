@@ -5,4 +5,5 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>authenticator-component</name>
   <description>Este componente permite autenticar usuários em memória e gerenciar suas credenciais.</description>
+  
 </project>
