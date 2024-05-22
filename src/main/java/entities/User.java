@@ -9,6 +9,7 @@ public class User {
     private boolean accountLocked;
     private LocalDateTime passwordExpirationDate;
     private LocalDateTime lockExpirationDate;
+    private int failedLoginAttempts;
 
     public User(String username, String email, String hashedPassword) {
         this.username = username;
@@ -17,6 +18,7 @@ public class User {
         this.accountLocked = false;
         this.passwordExpirationDate = LocalDateTime.now().plusDays(90); // Exemplo de expiração de 90 dias
         this.lockExpirationDate = null;
+        this.failedLoginAttempts = 0;
     }
 
     // Getters e setters...
@@ -67,5 +69,13 @@ public class User {
 
     public void setLockExpirationDate(LocalDateTime lockExpirationDate) {
         this.lockExpirationDate = lockExpirationDate;
+    }
+
+    public int getFailedLoginAttempts() {
+        return failedLoginAttempts;
+    }
+
+    public void setFailedLoginAttempts(int failedLoginAttempts) {
+        this.failedLoginAttempts = failedLoginAttempts;
     }
 }

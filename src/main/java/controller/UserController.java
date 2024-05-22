@@ -14,7 +14,7 @@ public class UserController {
     public void registerUser() {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Nome do usuario: ");
+        System.out.print("Usuário: ");
         String username = scanner.nextLine();
 
         System.out.print("Email: ");
@@ -31,6 +31,22 @@ public class UserController {
         }
     }
 
-    // Outros métodos de interação com o usuário...
-}
+    public void loginUser() {
+        Scanner scanner = new Scanner(System.in);
 
+        System.out.print("Usuário: ");
+        String username = scanner.nextLine();
+
+        System.out.print("Senha: ");
+        String password = scanner.nextLine();
+
+        try {
+            boolean success = authenticationService.login(username, password);
+            if (success) {
+                System.out.println("Login feito com sucesso.");
+            }
+        } catch (IllegalArgumentException e) {
+            System.out.println("Error: " + e.getMessage());
+        }
+    }
+}
