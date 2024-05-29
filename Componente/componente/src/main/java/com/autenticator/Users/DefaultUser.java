@@ -1,6 +1,6 @@
 package com.autenticator.Users;
 
-import com.autenticator.User;
+import com.autenticator.Users.User;
 
 public class DefaultUser implements User {
 

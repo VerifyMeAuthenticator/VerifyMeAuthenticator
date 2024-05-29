@@ -9,7 +9,7 @@ import java.sql.Statement;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.autenticator.User;
+import com.autenticator.Users.User;
 import com.autenticator.Users.DefaultUser;
 
 public class DatabaseUserDAO implements UserDAO {

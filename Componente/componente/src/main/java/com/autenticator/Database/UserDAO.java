@@ -1,6 +1,6 @@
 package com.autenticator.Database;
 
-import com.autenticator.User;
+import com.autenticator.Users.User;
 
 public interface UserDAO {
 

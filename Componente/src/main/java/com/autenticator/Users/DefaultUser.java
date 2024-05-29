@@ -1,7 +1,8 @@
 package com.autenticator.Users;
 
-import com.autenticator.User;
-
+/**
+ * Implementação padrão da interface User.
+ */
 public class DefaultUser implements User {
     private boolean blocked;
     private String username;
@@ -10,13 +11,22 @@ public class DefaultUser implements User {
     private String email;
     private String phoneNumber;
 
+    /**
+     * Construtor para criar um usuário com as informações fornecidas.
+     *
+     * @param username o nome de usuário
+     * @param password a senha do usuário
+     * @param role o papel do usuário
+     * @param email o email do usuário
+     * @param phoneNumber o número de telefone do usuário
+     */
     public DefaultUser(String username, String password, String role, String email, String phoneNumber) {
-
         this.username = username;
         this.password = password;
         this.role = role;
         this.email = email;
         this.phoneNumber = phoneNumber;
+        this.blocked = false; // Inicialmente, o usuário não está bloqueado
     }
 
     @Override
@@ -47,5 +57,10 @@ public class DefaultUser implements User {
     @Override
     public void setBlocked(boolean blocked) {
         this.blocked = blocked;
+    }
+
+    @Override
+    public boolean isBlocked() {
+        return blocked;
     }
 }

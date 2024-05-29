@@ -1,7 +1,7 @@
 package com.autenticator.Database;
 
 import com.autenticator.AuthenticationService;
-import com.autenticator.User;
+import com.autenticator.Users.User;
 
 public abstract class AbstractAuthenticationService implements AuthenticationService {
 

@@ -1,7 +1,8 @@
-package com.autenticator;
-
+package com.autenticator.Users;
+/**
+ * Interface que representa um usuário no sistema de autenticação.
+ */
 public interface User {
-    
     String getUsername();
     String getPassword();
     String getRole();
