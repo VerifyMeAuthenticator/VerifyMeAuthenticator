@@ -21,9 +21,9 @@ Edite o arquivo "application.properties" no diretório "src/main/resources" e aj
 - Importação do componente em um projeto Maven:
 ```
 <dependency>
-    <groupId>com.seu-usuario</groupId>
-    <artifactId>componente-autenticacao</artifactId>
-    <version>1.0.0</version>
+    <groupId>com.autenticator</groupId>
+    <artifactId>componente</artifactId>
+    <version>1.0-SNAPSHOT</version>
 </dependency>
 ```
 
