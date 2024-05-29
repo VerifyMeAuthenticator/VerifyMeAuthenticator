@@ -64,3 +64,8 @@ Este componente é distribuído sob a licença MIT.
 - `Aprimoramentos de Segurança`: Continuar aprimorando as medidas de segurança do componente, como criptografia mais robusta e detecção de atividades suspeitas.
 ### Contribuições Bem-Vindas:
 Caso tenha ideias para melhorar o componente ou adicionar novos recursos, sinta-se à vontade para sugerir suas ideias. As contribuições diretas também são sempre bem-vindas.
+## Autores
+
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/145163824?v=4" width=115><br><sub>Ellen Sampaio</sub>](https://github.com/ellensamp) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/104535672?v=4" width=115><br><sub>Sarah Nogueira</sub>](https://github.com/SarahN0gue1ra) 
+| :---: | :---: 
+
